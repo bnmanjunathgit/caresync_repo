@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "AzureKeyVault",
 		"typeProperties": {
-			"baseUrl": "https://dev-kayvault.vault.azure.net/"
+			"baseUrl": "https://dev-azurekeyvaultsecrets.vault.azure.net/"
 		}
 	}
 }
