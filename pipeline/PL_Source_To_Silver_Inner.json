@@ -90,7 +90,7 @@
 						"parameters": {
 							"container": "landing",
 							"folder": {
-								"value": "@concat(\n    activity('Read Table Details').output.firstRow.source_system, \n    '/', \n    activity('Read Table Details').output.firstRow.source_table_name, \n    '/', \n    formatDateTime(utcNow(),'yyyy-MM-dd_hh_mm_ss')\n    )",
+								"value": "@concat(\n    activity('Read Table Details').output.firstRow.source_system, \n    '/', \n    activity('Read Table Details').output.firstRow.source_table_name, \n    '/', \n    formatDateTime(utcNow(),'yyyy-MM-dd_hh:mm:ss')\n    )",
 								"type": "Expression"
 							}
 						}
