@@ -4,8 +4,8 @@
 		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
-			"server": "dev-sqlserver-caresync.database.windows.net",
-			"database": "dev-sql-db-caresync",
+			"server": "dev-azuresqlserver.database.windows.net",
+			"database": "dev_sqldb",
 			"encrypt": "mandatory",
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
